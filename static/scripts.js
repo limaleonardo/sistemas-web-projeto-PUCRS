@@ -48,6 +48,7 @@ function salvarDadosFormulario(event) {
   // Salva os dados no sessionStorage
   sessionStorage.setItem(formulario.id, JSON.stringify(dados));
   alert("Dados salvos com sucesso no sessionStorage!");
+  formulario.reset()
 }
 
 // Define os eventos ao carregar a página
