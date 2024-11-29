@@ -1,0 +1,33 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+
+}
+
+main .content {
+  height: 100%;
+}
+
+main .content section {
+  margin: 1rem 0rem;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+.card img {
+  height: 250px;
+}
